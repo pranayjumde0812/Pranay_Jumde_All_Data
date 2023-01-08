@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+ <head>
+      <title>Filter Version 1</title>
+ </head>
+ <body>
+       <h1> Array Filter V1</h1>
+     <pre>
+      <script>
+        
+              var arr=new Array(5);
+
+              document.writeln("Enter 5 elements :");
+ 
+              for(i=0;i<=4;i++)
+              {
+                var v1=parseInt(prompt("enter "+i+" numbers"));
+                arr[i]=v1;
+              }
+            
+             function fun1(x)
+             {
+              return (x%2==0);
+             }
+
+             var res=arr.filter(fun1);
+             document.writeln(res);            
+   </script>
+  </pre>
+ </body>
+</html>
