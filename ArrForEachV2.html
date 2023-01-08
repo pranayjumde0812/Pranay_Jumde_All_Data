@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+ <head>
+      <title>For Each Version 2</title>
+ </head>
+ <body>
+       <h1> Array for each V2</h1>
+     <pre>
+      <script>
+        
+              var arr=new Array(5);
+
+              document.writeln("Enter 5 elements :");
+ 
+              for(i=0;i<=arr.length-1;i++)
+              {
+                var v1=parseInt(prompt("enter "+i+" numbers"));
+                arr[i]=v1;
+              }
+            
+              var a = (x) =>
+               {
+                 document.write(" "+x);
+               }
+
+              arr.forEach(a);
+            
+   </script>
+  </pre>
+ </body>
+</html>
