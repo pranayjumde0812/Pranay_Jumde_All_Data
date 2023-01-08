@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+ <head>
+      <title>Reduce Version 2</title>
+ </head>
+ <body>
+       <h1> Array Reduce V2</h1>
+     <pre>
+      <script>
+              var sum=0;
+              var arr=new Array(5);
+
+              document.writeln("Enter 5 elements :");
+ 
+              for(i=0;i<=4;i++)
+              {
+                var v1=parseInt(prompt("enter "+i+" numbers"));
+                arr[i]=v1;
+              }
+                
+               var a=(sum,currArray) =>
+               {
+                 return (sum+currArray);
+               }
+              
+              
+              var res=arr.reduce(a);
+              document.write(res);
+            
+   </script>
+  </pre>
+ </body>
+</html>
