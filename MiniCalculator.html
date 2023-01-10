@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+            
+         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" 
+              integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">    
+    
+  </head>
+  <body> 
+    <script>
+         function addNumber()
+         {
+          var v1=parseInt(document.getElementById("n1").value);
+          var v2=parseInt(document.getElementById("n2").value);
+          var res=v1+v2;
+
+          var v=document.getElementById("rs").value=res;
+         }
+       
+         function subNumber()
+         {
+         var v1=parseInt(document.getElementById("n1").value);
+          var v2=parseInt(document.getElementById("n2").value);
+          var res=v1-v2;
+
+          var v=document.getElementById("rs").value=res;
+         }
+ 
+         function multiNumber()
+         {
+          var v1=parseInt(document.getElementById("n1").value);
+          var v2=parseInt(document.getElementById("n2").value);
+          var res=v1*v2;
+
+          var v=document.getElementById("rs").value=res;
+         }
+ 
+         function divNumber()
+         {
+          var v1=parseInt(document.getElementById("n1").value);
+          var v2=parseInt(document.getElementById("n2").value);
+          var res=v1/v2;
+
+          var v=document.getElementById("rs").value=res;
+         }
+    </script>
+
+     <form>
+         <table  align=center border=2 cellpadding=2 style="background-color:white; ">
+          <tr>
+             <td>Enter Number 1</td>
+             <td colspan=2><input type="text" id="n1" /></td>
+          </tr>
+         <tr>
+             <td>Enter Number 2</td>
+             <td colspan=2><input type="text" id="n2" /></td>
+         </tr>
+         <tr>
+             <td>Res</td>
+             <td colspan=2><input type="text" id="rs" /></td>
+         </tr>
+         <br>
+        <tr>             
+           <td align=center> <button type="button" class="btn btn-outline-success" onclick="addNumber()">Add</button></td>
+           <td> <button type="button" class="btn btn-outline-danger" onclick="subNumber()">Substract</button></td>
+           <td> <button type="button" class="btn btn-outline-primary" onclick="multiNumber()">Multiply</button></td>
+           <td> <button type="button" class="btn btn-outline-dark" onclick="divNumber()">Divide</button></td>              
+          </tr>
+         
+      </table>
+    </form>
+  </body>
+</html>
