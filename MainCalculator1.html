@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  
+         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" 
+          integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+   <style>
+         button[type="button"]
+         {
+           background-color:powderblue;
+           width:100%;
+           border:solid 1px green;
+         }
+ 
+        input
+         {
+           background-color:#b7f7d4;
+           border:solid 3px black;
+           height:100%;
+           padding:5px;
+         }
+   </style>
+ </head>
+ <body>
+        <script>
+                function view(num)
+                {
+                 document.getElementById("result").value+=num;
+                }
+
+               function compute()
+                {
+                  let x=document.getElementById("result").value;
+                 let y= eval(x)
+                 document.getElementById("result").value = y;
+                }
+               
+              function clearr()
+                {
+                 document.getElementById("result").value="";
+                }
+              
+        </script>
+ <center>
+   <table border=1>
+      <tr>
+         <td colspan=3 align=left><input type="text" id="result"></td>
+         <td><button type="button" onclick="clearr()" class="btn btn-outline-danger">C</button></td>
+      </tr>
+      <tr align=center>
+         <td><button type="button" class="btn btn-outline-success" onclick="view('1')">1</button></td>
+         <td><button type="button" class="btn btn-outline-success" onclick="view('2')">2</button></td>
+         <td><button type="button" class="btn btn-outline-success" onclick="view('3')">3</button></td>
+         <td><button type="button" class="btn btn-outline-secondary" onclick="view('+')">+</button></td>
+      </tr>
+      <tr align=center>
+         <td><button type="button" class="btn btn-outline-success" onclick="view('4')">4</button></td>
+         <td><button type="button" class="btn btn-outline-success" onclick="view('5')">5</button></td>
+         <td><button type="button" class="btn btn-outline-success" onclick="view('6')">6</button></td>
+         <td><button type="button" class="btn btn-outline-secondary" onclick="view('-')">-</button></td>
+      </tr>
+      <tr align=center>
+         <td><button type="button" class="btn btn-outline-success" onclick="view('7')">7</button></td>
+         <td><button type="button" class="btn btn-outline-success" onclick="view('8')">8</button></td>
+         <td><button type="button" class="btn btn-outline-success" onclick="view('9')">9</button></td>
+         <td><button type="button" class="btn btn-outline-secondary" onclick="view('/')">/</button></td>
+      </tr>
+      <tr align=center>
+         <td><button type="button" class="btn btn-outline-secondary" onclick="view('*')">*</button></td>
+         <td><button type="button" class="btn btn-outline-success" onclick="view('0')">0</button></td>
+         <td><button type="button" class="btn btn-outline-secondary" onclick="view('.')">.</button></td>
+         <td><button type="button" class="btn btn-outline-primary" onclick="compute()">=</button></td>
+      </tr>
+   </table>
+  </center>
+ </body>
+</html>
