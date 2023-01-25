@@ -1,0 +1,617 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <style>
+           button{
+                  width:50px;
+                  height:50px;
+                 }
+		   button.b
+		           {
+                    width:50px;
+                    height:50px;
+                   }
+				   
+      </style>
+  <script>
+  // Timer Code 1 Min
+  var counter = 60;
+  function startTimer()
+  {
+   setInterval(function() {
+    counter--;
+    if (counter >= 0) {
+      span = document.getElementById("count");
+      span.innerHTML ="00:"+counter +" sec";
+    }
+    if (counter === -1) {
+        alert('sorry, out of time');
+        clearInterval(counter);
+		sessionStorage.setItem("end",r);
+		sessionStorage.setItem("ved",59-counter);
+		window.location.href="ScoreCard.html";
+    }
+  }, 1000);
+ }
+ function start()
+ {
+    document.getElementById("count").style="color:green;";
+    startTimer();
+ };//End of Timer
+ 
+   //Reset Button
+  function resett()
+  {
+    window.location.href="MainPage.html";
+  }
+  
+  function jump()
+  {
+   setInterval(function() {
+    window.location.href="ScoreCard.html";
+   },2000)
+  }
+ 
+ </script>
+   </head>
+   <body bgcolor=powderblue>
+       <center> 
+          <h2>Welcome <span id="tv"></span></h2>
+		  <h3>Time reamains: <span id="count"><font color=red>01:00 min</font></span> </h3>
+            
+        <script>
+          document.getElementById("tv").innerHTML = sessionStorage.getItem("confirm"); 		  
+        </script>
+		<script>      
+            const a1 = [];
+            const n = 25;  
+            do {
+                 const randomNumber = Math.floor(Math.random() * 25) + 1;
+				 
+                 if (!a1.includes(randomNumber))
+	                {
+                      a1.push(randomNumber);
+                    }
+               } while (a1.length < n);
+  
+
+		  function strt()
+		  {
+		  var x=document.getElementById('b1');
+		   x.innerHTML=a1[0];
+		   
+		   var x=document.getElementById('b2');
+		   x.innerHTML=a1[1];
+		   
+		   var x=document.getElementById('b3');
+		   x.innerHTML=a1[2];
+		   
+		   var x=document.getElementById('b4');
+		   x.innerHTML=a1[3];
+		   
+		   var x=document.getElementById('b5');
+		   x.innerHTML=a1[4];
+		   
+		   var x=document.getElementById('b6');
+		   x.innerHTML=a1[5];
+		   
+		   var x=document.getElementById('b7');
+		   x.innerHTML=a1[6];
+		   
+		   var x=document.getElementById('b8');
+		   x.innerHTML=a1[7];
+		   
+		   var x=document.getElementById('b9');
+		   x.innerHTML=a1[8];
+		   
+		   var x=document.getElementById('b10');
+		   x.innerHTML=a1[9];
+		   
+		   var x=document.getElementById('b11');
+		   x.innerHTML=a1[10];
+		   
+		   var x=document.getElementById('b12');
+		   x.innerHTML=a1[11];
+		   
+		   var x=document.getElementById('b13');
+		   x.innerHTML=a1[12];
+		   
+		   var x=document.getElementById('b14');
+		   x.innerHTML=a1[13];
+		   
+		   var x=document.getElementById('b15');
+		   x.innerHTML=a1[14];
+		   
+		   var x=document.getElementById('b16');
+		   x.innerHTML=a1[15];
+		   
+		   var x=document.getElementById('b17');
+		   x.innerHTML=a1[16];
+		   
+		   var x=document.getElementById('b18');
+		   x.innerHTML=a1[17];
+		   
+		   var x=document.getElementById('b19');
+		   x.innerHTML=a1[18];
+		   
+		   var x=document.getElementById('b20');
+		   x.innerHTML=a1[19];
+		   
+		   var x=document.getElementById('b21');
+		   x.innerHTML=a1[20];
+		   
+		   var x=document.getElementById('b22');
+		   x.innerHTML=a1[21];
+		   
+		   var x=document.getElementById('b23');
+		   x.innerHTML=a1[22];
+		   
+		   var x=document.getElementById('b24');
+		   x.innerHTML=a1[23];
+		   
+		   var x=document.getElementById('b25');
+		   x.innerHTML=a1[24];		 
+		  }
+		  //Normal Array
+				 var arrN=new Array(1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25);
+				 var r=0;
+                 var y;
+			     function one()
+                 {
+                  y=document.getElementById("b1").innerHTML;
+				  console.log(y);
+				  if(y==arrN[r])
+				  {
+				    document.getElementById("b1").style.backgroundColor='green';
+				    r=r+1;
+				  }else
+				    {
+					   sessionStorage.setItem("end",r);
+					   sessionStorage.setItem("ved",60-counter);
+					   document.getElementById("b1").style.backgroundColor='red';
+					   window.location.href="ScoreCard.html"; 
+					}
+				 }				  
+				 function two()
+                 { 
+				  y=document.getElementById("b2").innerHTML;
+				  console.log(y);
+				   if(y==arrN[r])
+				  {
+				    document.getElementById("b2").style.backgroundColor='green';
+				    r=r+1;
+				  }else
+				    {
+					   sessionStorage.setItem("end",r);
+					   sessionStorage.setItem("ved",60-counter);
+					   document.getElementById("b2").style.backgroundColor='red';
+					   window.location.href="ScoreCard.html";    
+					}
+				 }
+				  function three()
+				 {
+				  y=document.getElementById("b3").innerHTML;
+				  console.log(y);
+				   if(y==arrN[r])
+				  {
+				    document.getElementById("b3").style.backgroundColor='green';
+				    r=r+1;
+				  }else
+				    {
+					   sessionStorage.setItem("end",r);
+					   sessionStorage.setItem("ved",60-counter);
+					   document.getElementById("b3").style.backgroundColor='red';
+					   window.location.href="ScoreCard.html";   				   
+					}
+				 }
+				  function four()
+				 {
+				  y=document.getElementById("b4").innerHTML;
+				  console.log(y);
+				   if(y==arrN[r])
+				  {
+				    document.getElementById("b4").style.backgroundColor='green';
+				    r=r+1;
+				  }else
+				    {
+					   sessionStorage.setItem("end",r);
+					   sessionStorage.setItem("ved",60-counter);
+					   document.getElementById("b4").style.backgroundColor='red';
+					   window.location.href="ScoreCard.html"; 
+					}
+				 }
+				  function five()
+				 {
+				  y=document.getElementById("b5").innerHTML;
+				  console.log(y);
+				   if(y==arrN[r])
+				  {
+				    document.getElementById("b5").style.backgroundColor='green';
+				    r=r+1;
+				  }else
+				    {
+					   sessionStorage.setItem("end",r);
+					   sessionStorage.setItem("ved",60-counter);
+					   document.getElementById("b5").style.backgroundColor='red';
+					   window.location.href="ScoreCard.html"; 
+					}
+				 }
+				 function six()
+                 {
+                  y=document.getElementById("b6").innerHTML;
+				  console.log(y);
+				   if(y==arrN[r])
+				  {
+				    document.getElementById("b6").style.backgroundColor='green';
+				    r=r+1;
+				  }else
+				    {
+					   sessionStorage.setItem("end",r);
+					   sessionStorage.setItem("ved",60-counter);
+					   document.getElementById("b6").style.backgroundColor='red';
+					   window.location.href="ScoreCard.html"; 
+					}
+				 }				  
+				 function seven()
+                 { 
+				  y=document.getElementById("b7").innerHTML;
+				  console.log(y);
+				   if(y==arrN[r])
+				  {
+				    document.getElementById("b7").style.backgroundColor='green';
+				    r=r+1;
+				  }else
+				    {
+					   sessionStorage.setItem("end",r);
+					   sessionStorage.setItem("ved",60-counter);
+					   document.getElementById("b7").style.backgroundColor='red';
+					   window.location.href="ScoreCard.html"; 
+					}
+				 }
+				  function eight()
+				 {
+				  y=document.getElementById("b8").innerHTML;
+				  console.log(y);
+				   if(y==arrN[r])
+				  {
+				    document.getElementById("b8").style.backgroundColor='green';
+				    r=r+1;
+				  }else
+				    {
+					   sessionStorage.setItem("end",r);
+					   sessionStorage.setItem("ved",60-counter);
+					   document.getElementById("b8").style.backgroundColor='red';
+					   window.location.href="ScoreCard.html"; 
+					}
+				 }
+				  function nine()
+				 {
+				  y=document.getElementById("b9").innerHTML;
+				  console.log(y);
+				   if(y==arrN[r])
+				  {
+				    document.getElementById("b9").style.backgroundColor='green';
+				    r=r+1;
+				  }else
+				    {
+					   sessionStorage.setItem("end",r);
+					   sessionStorage.setItem("ved",60-counter);
+					   document.getElementById("b9").style.backgroundColor='red';
+					   window.location.href="ScoreCard.html"; 
+					}
+				 }
+				  function ten()
+				 {
+				  y=document.getElementById("b10").innerHTML;
+				  console.log(y);
+				   if(y==arrN[r])
+				  {
+				    document.getElementById("b10").style.backgroundColor='green';
+				    r=r+1;
+				  }else
+				    {
+					   sessionStorage.setItem("end",r);
+					   sessionStorage.setItem("ved",60-counter);
+					   document.getElementById("b10").style.backgroundColor='red';
+					   window.location.href="ScoreCard.html"; 
+					}
+				 }
+				 function tone()
+                 {
+                  y=document.getElementById("b11").innerHTML;
+				  console.log(y);
+				   if(y==arrN[r])
+				  {
+				    document.getElementById("b11").style.backgroundColor='green';
+				    r=r+1;
+				  }else
+				    {
+					   sessionStorage.setItem("end",r);
+					   sessionStorage.setItem("ved",60-counter);
+					   document.getElementById("b11").style.backgroundColor='red';
+					   window.location.href="ScoreCard.html"; 
+					}
+				 }				  
+				 function ttwo()
+                 { 
+				  y=document.getElementById("b12").innerHTML;
+				  console.log(y);
+				   if(y==arrN[r])
+				  {
+				    document.getElementById("b12").style.backgroundColor='green';
+				    r=r+1;
+				  }else
+				    {
+					   sessionStorage.setItem("end",r);
+					   sessionStorage.setItem("ved",60-counter);
+					   document.getElementById("b12").style.backgroundColor='red';
+					   window.location.href="ScoreCard.html"; 
+					}
+				 }
+				  function tthree()
+				 {
+				  y=document.getElementById("b13").innerHTML;
+				  console.log(y);
+				   if(y==arrN[r])
+				  {
+				    document.getElementById("b13").style.backgroundColor='green';
+				    r=r+1;
+				  }else
+				    {
+					   sessionStorage.setItem("end",r);
+					   sessionStorage.setItem("ved",60-counter);
+					   document.getElementById("b13").style.backgroundColor='red';
+					   window.location.href="ScoreCard.html"; 
+					}
+				 }
+				  function tfour()
+				 {
+				  y=document.getElementById("b14").innerHTML;
+				  console.log(y);
+				   if(y==arrN[r])
+				  {
+				    document.getElementById("b14").style.backgroundColor='green';
+				    r=r+1;
+				  }else
+				    {
+					   sessionStorage.setItem("end",r);
+					   sessionStorage.setItem("ved",60-counter);
+					   document.getElementById("b14").style.backgroundColor='red';
+					   window.location.href="ScoreCard.html"; 
+					}
+				 }
+				  function tfive()
+				 {
+				  y=document.getElementById("b15").innerHTML;
+				  console.log(y);
+				   if(y==arrN[r])
+				  {
+				    document.getElementById("b15").style.backgroundColor='green';
+				    r=r+1;
+				  }else
+				    {
+					   sessionStorage.setItem("end",r);
+					   sessionStorage.setItem("ved",60-counter);
+					   document.getElementById("b15").style.backgroundColor='red';
+					   window.location.href="ScoreCard.html"; 
+					}
+				 }
+				 function tsix()
+                 {
+                  y=document.getElementById("b16").innerHTML;
+				  console.log(y);
+				   if(y==arrN[r])
+				  {
+				    document.getElementById("b16").style.backgroundColor='green';
+				    r=r+1;
+				  }else
+				    {
+					   sessionStorage.setItem("end",r);
+					   sessionStorage.setItem("ved",60-counter);
+					   document.getElementById("b16").style.backgroundColor='red';
+					   window.location.href="ScoreCard.html"; 
+					}
+				 }				  
+				 function tseven()
+                 { 
+				  y=document.getElementById("b17").innerHTML;
+				  console.log(y);
+				   if(y==arrN[r])
+				  {
+				    document.getElementById("b17").style.backgroundColor='green';
+				    r=r+1;
+				  }else
+				    {
+					   sessionStorage.setItem("end",r);
+					   sessionStorage.setItem("ved",60-counter);
+					   document.getElementById("b17").style.backgroundColor='red';
+					   window.location.href="ScoreCard.html"; 
+					}
+				 }
+				  function teight()
+				 {
+				  y=document.getElementById("b18").innerHTML;
+				  console.log(y);
+				   if(y==arrN[r])
+				  {
+				    document.getElementById("b18").style.backgroundColor='green';
+				    r=r+1;
+				  }else
+				    {
+					   sessionStorage.setItem("end",r);
+					   sessionStorage.setItem("ved",60-counter);
+					   document.getElementById("b18").style.backgroundColor='red';
+					   window.location.href="ScoreCard.html"; 
+					}
+				 }
+				  function tnine()
+				 {
+				  y=document.getElementById("b19").innerHTML;
+				  console.log(y);
+				   if(y==arrN[r])
+				  {
+				    document.getElementById("b19").style.backgroundColor='green';
+				    r=r+1;
+				  }else
+				    {
+					   sessionStorage.setItem("end",r);
+					   sessionStorage.setItem("ved",60-counter);
+					   document.getElementById("b19").style.backgroundColor='red';
+					   window.location.href="ScoreCard.html"; 
+					}
+				 }
+				  function twenty()
+				 {
+				  y=document.getElementById("b20").innerHTML;
+				  console.log(y);
+				   if(y==arrN[r])
+				  {
+				    document.getElementById("b20").style.backgroundColor='green';
+				    r=r+1;
+				  }else
+				    {
+					   sessionStorage.setItem("end",r);
+					   sessionStorage.setItem("ved",60-counter);
+					   document.getElementById("b20").style.backgroundColor='red';
+					   window.location.href="ScoreCard.html"; 
+					}
+				 }
+				 function ttone()
+                 {
+                  y=document.getElementById("b21").innerHTML;
+				  console.log(y);
+				   if(y==arrN[r])
+				  {
+				    document.getElementById("b21").style.backgroundColor='green';
+				    r=r+1;
+				  }else
+				    {
+					   sessionStorage.setItem("end",r);
+					   sessionStorage.setItem("ved",60-counter);
+					   document.getElementById("b21").style.backgroundColor='red';
+					   window.location.href="ScoreCard.html"; 
+					}
+				 }				  
+				 function tttwo()
+                 { 
+				  y=document.getElementById("b22").innerHTML;
+				  console.log(y);
+				   if(y==arrN[r])
+				  {
+				    document.getElementById("b22").style.backgroundColor='green';
+				    r=r+1;
+				  }else
+				    {
+					   sessionStorage.setItem("end",r);
+					   sessionStorage.setItem("ved",60-counter);
+					   document.getElementById("b22").style.backgroundColor='red';
+					   window.location.href="ScoreCard.html"; 
+					}
+				 }
+				  function ttthree()
+				 {
+				  y=document.getElementById("b23").innerHTML;
+				  console.log(y);
+				   if(y==arrN[r])
+				  {
+				    document.getElementById("b23").style.backgroundColor='green';
+				    r=r+1;
+				  }else
+				    {
+					   sessionStorage.setItem("end",r);
+					   sessionStorage.setItem("ved",60-counter);
+					   document.getElementById("b23").style.backgroundColor='red';
+					   window.location.href="ScoreCard.html"; 
+					}
+				 }
+				  function ttfour()
+				 {
+				  y=document.getElementById("b24").innerHTML;
+				  console.log(y);
+				   if(y==arrN[r])
+				  {
+				    document.getElementById("b24").style.backgroundColor='green';
+				    r=r+1;
+				  }else
+				    {
+					   sessionStorage.setItem("end",r);
+					   sessionStorage.setItem("ved",60-counter);
+					   document.getElementById("b24").style.backgroundColor='red';
+					   window.location.href="ScoreCard.html"; 
+					}
+				 }
+				  function ttfive()
+				 {
+				  y=document.getElementById("b25").innerHTML;
+				  console.log(y);
+				   if(y==arrN[r])
+				  {
+				    document.getElementById("b25").style.backgroundColor='green';
+				    r=r+1;
+				  }else
+				    {
+					   sessionStorage.setItem("end",r);
+					   sessionStorage.setItem("ved",60-counter);
+					   document.getElementById("b25").style.backgroundColor='red';
+					   window.location.href="ScoreCard.html"; 
+					}
+				 }
+ 
+            //submit function
+         	function submit1()
+            {
+			 sessionStorage.setItem("ved",60-counter);
+			 sessionStorage.setItem("end",r);
+			 window.location.href="ScoreCard.html";             			 
+			} 
+			
+        </script>
+		
+<table align=center>
+     <tr>
+      <td><button type="button" onclick="one()" id="b1" >-</button></td>
+	  <td><button type="button" onclick="two()" id="b2" >-</button></td>
+	  <td><button type="button" onclick="three()" id="b3" >-</button></td>
+	  <td><button type="button" onclick="four()" id="b4" >-</button></td>
+	  <td><button type="button" onclick="five()" id="b5" >-</button></td>
+	 </tr>
+	 <tr>
+      <td><button type="button" onclick="six()" id="b6" >-</button></td>
+	  <td><button type="button" onclick="seven()" id="b7" >-</button></td>
+	  <td><button type="button" onclick="eight()" id="b8" >-</button></td>
+	  <td><button type="button" onclick="nine()" id="b9" >-</button></td>
+	  <td><button type="button" onclick="ten()" id="b10">-</button></td>
+	 </tr>
+	 <tr>
+      <td><button type="button" onclick="tone()" id="b11" >-</button></td>
+	  <td><button type="button" onclick="ttwo()" id="b12" >-</button></td>
+	  <td><button type="button" onclick="tthree()" id="b13" >-</button></td>
+	  <td><button type="button" onclick="tfour()" id="b14" >-</button></td>
+	  <td><button type="button" onclick="tfive()" id="b15" >-</button></td>
+	 </tr>
+	 <tr>
+      <td><button type="button" onclick="tsix()" id="b16" >-</button></td>
+	  <td><button type="button" onclick="tseven()" id="b17" >-</button></td>
+	  <td><button type="button" onclick="teight()" id="b18" >-</button></td>
+	  <td><button type="button" onclick="tnine()" id="b19" >-</button></td>
+	  <td><button type="button" onclick="twenty()" id="b20" >-</button></td>
+	 </tr>
+	 <tr>
+      <td><button type="button" onclick="ttone()" id="b21" >-</button></td>
+	  <td><button type="button" onclick="tttwo()" id="b22" >-</button></td>
+	  <td><button type="button" onclick="ttthree()" id="b23" >-</button></td>
+	  <td><button type="button" onclick="ttfour()" id="b24" >-</button></td>
+	  <td><button type="button" onclick="ttfive()" id="b25" >-</button></td>
+	 </tr>
+	</table>	 
+    <table>
+	 <tr>
+     <td colspan=2><button type="button" class="b" onclick="resett()" id="rest" >Reset</button></td>
+	 
+     <td><button type="button" class="b" onclick="strt(); start()" id="str" >Start</button></td>
+	 
+	 <td colspan=2><button type="button" class="b" onclick="submit1()" id="sub" >Submit</button></td>
+	 </tr>
+    </table>
+   </body>
+</html>

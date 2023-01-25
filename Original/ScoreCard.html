@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+   <head>
+   </head>
+   <body bgcolor=powdergreen>   
+     <center> <h1>ScoreCard </h1> <center>
+              <h3>Player Name:-<span id="pg2"> </span></h3>
+              
+             <h3>Final Score is :<span id="pg3"> </span> </h3>
+			 
+			 <h3>Time Taken: <span id="pgl"></span> sec </h3>
+            
+        <script>
+          document.getElementById("pg3").innerHTML = sessionStorage.getItem("end");  				 		  
+          document.getElementById("pg2").innerHTML = sessionStorage.getItem("confirm"); 
+          document.getElementById("pgl").innerHTML = sessionStorage.getItem("ved");		  
+        </script>
+   </body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+   <head>
+   </head>
+   <body bgcolor=powderblue>
+       <center><h1>!!!<font color=Orange>Number Puzzle Game</font>!!!</h1>
+       <center><h2>Login Page</h2>
+         <form>
+             <table> 
+                <tr>
+                   <td>Enter Player Name: </td>
+                   <td><input type="text" id="in"></td>
+                </tr>
+                <tr>
+                   <td colspan=2 align=center><button type="button" value="button1" onclick="call()">Confirm</button></td>
+                </tr>
+             </table>
+         </form>
+      </center>
+    <script>
+         function call()
+           {
+            window.location.href="MainPage.html";
+            var fn=document.getElementById("in").value;
+            sessionStorage.setItem("confirm",fn);
+           }
+    </script>
+   </body>
+</html>
