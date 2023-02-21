@@ -1,0 +1,59 @@
+
+Below attached 2 csv files which need to be imported into the database.
+The imported data needs to be listed on the UI for changes.
+Below are the following tables to be made:
+Table "Incident"
+	- Id
+	- Date
+	- Summary
+	- Estimated Time
+	- Killed
+	- Injured
+	- No. of incident
+	- High Impact
+	- Source / Info Rating
+	- Location Accuracy
+	- Latitude
+	- Longitude
+	- Province
+	- Location
+	- Activity Type
+	- Incident Foerign Key
+	- Target Foreign Key
+	- Criminal Charged Foreign Key
+	- Created At
+	- Update At
+	- Created by
+	- Updated By
+
+Table "Incident Type" (Will be used for Instigator also. No need to create separate Instigator Table)
+	- Id
+	- Incident Type
+	- Incident Sub Type
+	- Created At
+	- Update At
+	- Created by
+	- Updated By
+
+Table "Target"
+	- Id
+	- Target Type
+	- Target Sub Type
+	- Created At
+	- Update At
+	- Created by
+	- Updated By
+
+Table "Criminal Charges"
+	- Id
+	- Criminal CHarges
+	- Created At
+	- Update At
+	- Created by
+	- Updated By
+
+Project Work
+Analyse and design the database based on the CSV and the tables mentioned above.
+Create a to process import the csv file  in to the database
+Create a UI where different graphs should be produced based on search  on the date, country, location, activity type, state / governorate, instigator, instigator sub-type, target, target sub-type, incident, incident sub-type
+Your UI should look as below: (Ignore the highlights in yellow. No need to make that)
