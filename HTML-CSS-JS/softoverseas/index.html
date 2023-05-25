@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+</head>
+<style>
+   
+   @import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+ 
+.container{
+   display: flex;
+   justify-content: space-between;
+}
+body{
+    font-family: 'Muli',sans-serif;
+}
+
+ .about h1{
+      align-content: center;
+      justify-content: center;
+ }
+  
+  .video video{    
+   height: 200px;
+   width: 350px;
+   border-top-left-radius:40px ;
+   border-bottom-right-radius:40px ;
+    object-fit: contain;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+  }
+
+  .button button{
+   align-items: center;
+   justify-content: center;
+   font-size: large;
+   border-top-left-radius:20px ;
+   border-bottom-right-radius:20px ;
+   cursor: pointer;
+   padding: 20px 50px;
+   background-color: white;
+   border:3px solid green;
+  }
+
+  button:hover{
+   border-top-right-radius:20px ;
+   border-bottom-left-radius:20px;
+   border-top-left-radius:0px ;
+   border-bottom-right-radius:0px ;
+   background-color: green;
+   color: antiquewhite ;
+  }
+
+  a:hover{
+   color: aliceblue;
+  }
+
+  button:active{
+   transform: scale(.80);
+  }
+
+  .about{
+   margin-bottom: 2px solid green;
+  }
+</style>
+<body>
+   <center><div class="about"><h1>About Us</h1></div></center>
+    <div class="container">
+      <section class="sec1" width="400px">
+         <div class="video">
+            <video controls="false" autoplay="autoplay" muted>
+               <source src="assets/video/intro.mp4" type="video/mp4" />
+            </video>
+         </div>
+      </section>
+      
+      <section class="sec2" width="700px">
+         <div class="intro">
+            <p>
+               We <b>SOFT OVERSEAS PVT LTD</b>  is an international courier and logistics service provider based
+                in Khandwa, Madhya Pradesh, India. We provide door-to-door pickup and delivery services 
+                throughout India and internationally. To meet your supply chain needs, we also offer 
+                end-to-end e-commerce logistics solutions, such as first and last-mile delivery, 
+                warehousing, and a variety of other services such as air freight, ocean freight, 
+                import, rail and road logistics, and so on.
+            </p>
+            <q>
+               We take pride in providing the highest quality services to our clients by being honest,
+               transparent, and dependable.
+            </q>
+            <p>
+               We have been able to gain our customers' trust, confidence, and admiration in the most efficient 
+               manner under the supervision of our professional mentors with experience in various industries. 
+               We have been able to cater to a large clientele across the country thanks to his business ideas 
+               and excellent management skills.
+            </p>
+            <center>
+               <div class="button">
+                  <button> <a href="https://softoverseas.com/" style="text-decoration: none;">Know More</a></button>
+               </div>
+            </center>
+         </div>
+      </section>
+     </div>
+</body>
+</html>
