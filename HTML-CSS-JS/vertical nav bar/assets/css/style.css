@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+}
+
+img{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    position: relative;
+    top: 20px;
+}
+
+ul {
+    list-style-type: none;
+    background-color:rgba(1, 23, 29, 1);
+    height: 100%;
+    width: 150px;
+    position: fixed;
+    overflow: auto;
+    justify-content: center;
+    align-items: center;
+    
+}
+li , p{
+    padding-top: 25px;
+}
+
+li a{
+    color: bisque;
+    display: block;
+    height: 50px;
+    text-decoration: none;
+
+}
+
+li a:hover {
+    text-decoration:underline;
+    color:aqua;
+
+}
+
+.active{
+    text-decoration: underline;
+    color:purple;
+}
+
+p{
+    margin-left: 200px;
+}
