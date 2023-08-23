@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/AccessModifier/AccessModifier.iml" filepath="$PROJECT_DIR$/AccessModifier/AccessModifier.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Calculator/Calculator.iml" filepath="$PROJECT_DIR$/Calculator/Calculator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CalculatorNew/CalculatorNew.iml" filepath="$PROJECT_DIR$/CalculatorNew/CalculatorNew.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Constructor/Constructor.iml" filepath="$PROJECT_DIR$/Constructor/Constructor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ExceptionHandling/ExceptionHandling.iml" filepath="$PROJECT_DIR$/ExceptionHandling/ExceptionHandling.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ExceptionHandlingDir/ExceptionHandlingDir.iml" filepath="$PROJECT_DIR$/ExceptionHandlingDir/ExceptionHandlingDir.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Multithreading/Multithreading.iml" filepath="$PROJECT_DIR$/Multithreading/Multithreading.iml" />
+      <module fileurl="file://$PROJECT_DIR$/NoramalCodePractice/NoramalCodePractice.iml" filepath="$PROJECT_DIR$/NoramalCodePractice/NoramalCodePractice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Practice.iml" filepath="$PROJECT_DIR$/.idea/Practice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SetterGetter/SetterGetter.iml" filepath="$PROJECT_DIR$/SetterGetter/SetterGetter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/calculaterSwitch/calculaterSwitch.iml" filepath="$PROJECT_DIR$/calculaterSwitch/calculaterSwitch.iml" />
+    </modules>
+  </component>
+</project>

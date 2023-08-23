@@ -1,0 +1,40 @@
+You are given 2 separate pipe separated strings 
+(let’s call them A & B) and each one contains numeric values separated by pipe | character. 
+Write a method to read all the values in A & B and merge them and then finally present the 
+sorted integer array as output. You may use StringTokenizer class or split API within String class
+
+Input: (‘1|2|5’, ‘3|6’]), Output: [1, 2, 3, 5, 6]
+ 
+Public int[] stringMergeToIntergerArray (String a, String b)
+Example data:
+Input: (‘10|15|20’, ‘1|50’), Output: [1, 10, 15, 20, 50] 
+
+--------------------------------------------------------------------------------------------------------------------------------
+
+Write a program to find the frequency of occurrence of a word in an article.
+Here you will be provided with 2 inputs – an array of strings representing the 
+doc and a word that needs to be searched for occurrences. You need to return number of times that word occurred in document
+ 
+Public int CountOccurance (String doc [], String wordToSearch)
+ 
+Example data
+Input: ([abc, def, ghi, def, xyz], abc), Output: 1
+Input: ([a1, a2, a1, a2, a3, a1, a3, a4], a3), Output: 2 
+
+--------------------------------------------------------------------------------------------------------------------------------
+
+public int findOccurance(String [] arr , String element){
+
+int count = 0;
+
+ for (int i = 0 ; i < arr.length ; i++ ){   
+ 
+    if (arr[i] == element){
+	
+	  count++;
+	
+	}
+	
+	return count;
+  }
+}
