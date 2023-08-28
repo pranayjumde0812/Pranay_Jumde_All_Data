@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Clonning/Clonning.iml" filepath="$PROJECT_DIR$/Clonning/Clonning.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Collection_Problems/Collection_Problems.iml" filepath="$PROJECT_DIR$/Collection_Problems/Collection_Problems.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java IO Stream/Java IO Stream.iml" filepath="$PROJECT_DIR$/Java IO Stream/Java IO Stream.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Networking/Networking.iml" filepath="$PROJECT_DIR$/Networking/Networking.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/New_Work.iml" filepath="$PROJECT_DIR$/.idea/New_Work.iml" />
+    </modules>
+  </component>
+</project>
