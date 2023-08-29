@@ -1,6 +1,6 @@
 You are given 2 separate pipe separated strings 
-(let’s call them A & B) and each one contains numeric values separated by pipe | character. 
-Write a method to read all the values in A & B and merge them and then finally present the 
+(let’s call them DefaultAndStaticMethod.A & DefaultAndStaticMethod.B) and each one contains numeric values separated by pipe | character.
+Write a method to read all the values in DefaultAndStaticMethod.A & DefaultAndStaticMethod.B and merge them and then finally present the
 sorted integer array as output. You may use StringTokenizer class or split API within String class
 
 Input: (‘1|2|5’, ‘3|6’]), Output: [1, 2, 3, 5, 6]
