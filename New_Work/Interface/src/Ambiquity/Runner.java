@@ -1,6 +1,6 @@
 package Ambiquity;
 
-public class Runner implements One , Two{
+public class Runner implements One , Two {
 
 
     public static void main(String[] args) {
@@ -13,4 +13,5 @@ public class Runner implements One , Two{
     public void myName() {
         One.super.myName();
     }
+
 }
