@@ -114,15 +114,15 @@ public class AccountUser {
     }
 
 
-    public String getUname() {
-        return uname;
-    }
-
-    public void setUname(String uname) {
-        this.uname = uname;
-    }
-
-    String uname;
+//    public String getUname() {
+//        return uname;
+//    }
+//
+//    public void setUname(String uname) {
+//        this.uname = uname;
+//    }
+//
+//    String uname;
 
     public ResultSet checkLoginUser() {
 
@@ -143,7 +143,6 @@ public class AccountUser {
 //                setUname(resultSet.getString(3).toString());
 //                System.out.println(getUname());
 //            }
-
 
         } catch (SQLException e) {
             throw new RuntimeException(e);

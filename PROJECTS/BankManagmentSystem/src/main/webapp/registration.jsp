@@ -26,6 +26,7 @@
 
     if (res == 1) {
         out.println("<h2>Successfully inserted</h2>");
+        out.println("<h2> <a href = 'index.html' >Goto Login Page</a> </h2>");
     } else {
         RequestDispatcher requestDispatcher = request.getRequestDispatcher("registration.html");
         requestDispatcher.include(request, response);

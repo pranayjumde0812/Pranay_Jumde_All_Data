@@ -18,20 +18,24 @@
 
 
 <%
-    ResultSet resultSet = login.checkLoginUser();
     String username = "";
+    ResultSet resultSet = login.checkLoginUser();
 
-    System.out.println(username);
+//    System.out.println(username);
+
 
 //    int a = login.checkLoginUser();
 
     if (resultSet.next()) {
+
+        username = resultSet.getString(3);
+        session.setAttribute("userName", username);
         response.sendRedirect("dashboard.jsp");
+
     } else {
         response.sendRedirect("ErrorPage.html");
     }
-    username = resultSet.getString(3);
-    session.setAttribute("userName", username);
+
 %>
 </body>
 </html>
