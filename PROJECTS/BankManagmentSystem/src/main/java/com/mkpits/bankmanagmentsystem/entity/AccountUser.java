@@ -1,9 +1,6 @@
 package com.mkpits.bankmanagmentsystem.entity;
 
-import java.sql.Connection;
-import java.sql.DriverManager;
-import java.sql.PreparedStatement;
-import java.sql.SQLException;
+import java.sql.*;
 
 public class AccountUser {
 
@@ -114,5 +111,43 @@ public class AccountUser {
 
         result = preparedStatement.executeUpdate();
         return result;
+    }
+
+
+    public String getUname() {
+        return uname;
+    }
+
+    public void setUname(String uname) {
+        this.uname = uname;
+    }
+
+    String uname;
+
+    public ResultSet checkLoginUser() {
+
+//        int result = 0;
+        ResultSet resultSet;
+
+        String query = "select user_id, password, name from account_user where user_id=? and password=?";
+        try {
+            preparedStatement = connection.prepareStatement(query);
+
+            preparedStatement.setString(1, userId);
+            preparedStatement.setString(2, password);
+
+            resultSet = preparedStatement.executeQuery();
+
+//            if (resultSet.next()) {
+//                result = 0;
+//                setUname(resultSet.getString(3).toString());
+//                System.out.println(getUname());
+//            }
+
+
+        } catch (SQLException e) {
+            throw new RuntimeException(e);
+        }
+        return resultSet;
     }
 }

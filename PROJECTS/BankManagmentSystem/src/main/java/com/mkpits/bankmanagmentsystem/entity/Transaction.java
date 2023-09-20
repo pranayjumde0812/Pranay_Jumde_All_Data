@@ -1,16 +1,18 @@
 package com.mkpits.bankmanagmentsystem.entity;
 
+import java.sql.Date;
+
 public class Transaction {
     private Long transactionId;
-    private Long userId;
+    private String userId;
     private Double amount;
-    private String transactionDate;
+    private Date transactionDate;
     private String transactionType;
 
     public Transaction() {
     }
 
-    public Transaction(Long transactionId, Long userId, Double amount, String transactionDate, String transactionType) {
+    public Transaction(Long transactionId, String userId, Double amount, Date transactionDate, String transactionType) {
         this.transactionId = transactionId;
         this.userId = userId;
         this.amount = amount;
@@ -26,11 +28,11 @@ public class Transaction {
         this.transactionId = transactionId;
     }
 
-    public Long getUserId() {
+    public String getUserId() {
         return userId;
     }
 
-    public void setUserId(Long userId) {
+    public void setUserId(String userId) {
         this.userId = userId;
     }
 
@@ -42,11 +44,11 @@ public class Transaction {
         this.amount = amount;
     }
 
-    public String getTransactionDate() {
+    public Date getTransactionDate() {
         return transactionDate;
     }
 
-    public void setTransactionDate(String transactionDate) {
+    public void setTransactionDate(Date transactionDate) {
         this.transactionDate = transactionDate;
     }
 
