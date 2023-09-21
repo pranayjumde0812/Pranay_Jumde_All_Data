@@ -14,8 +14,12 @@
 <%
     String userName = (String) session.getAttribute("userName");
 %>
-<h1> Hello <%=userName%> </h1>
+<h1> Hello <%=userName%>
+</h1>
 
-
+<a href="deposit.html">Deposit</a>
+<a href="withdraw.html">Withdraw</a>
+<a href="transfer.html">Transfer</a>
+<a href="balance-sheet.jsp">Balance-Sheet</a>
 </body>
 </html>

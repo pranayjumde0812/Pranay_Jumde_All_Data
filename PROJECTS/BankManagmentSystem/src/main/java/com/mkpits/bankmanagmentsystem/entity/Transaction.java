@@ -1,18 +1,26 @@
 package com.mkpits.bankmanagmentsystem.entity;
 
-import java.sql.Date;
+import java.sql.*;
 
 public class Transaction {
     private Long transactionId;
     private String userId;
     private Double amount;
-    private Date transactionDate;
+    private String transactionDate;
     private String transactionType;
 
     public Transaction() {
+
+        try {
+            Class.forName("com.mysql.cj.jdbc.Driver");
+            String url = "jdbc:mysql://localhost:3306/jspbankproject";
+            connection = DriverManager.getConnection(url, "root", "1311");
+
+        } catch (Exception e) {
+        }
     }
 
-    public Transaction(Long transactionId, String userId, Double amount, Date transactionDate, String transactionType) {
+    public Transaction(Long transactionId, String userId, Double amount, String transactionDate, String transactionType) {
         this.transactionId = transactionId;
         this.userId = userId;
         this.amount = amount;
@@ -44,11 +52,11 @@ public class Transaction {
         this.amount = amount;
     }
 
-    public Date getTransactionDate() {
+    public String getTransactionDate() {
         return transactionDate;
     }
 
-    public void setTransactionDate(Date transactionDate) {
+    public void setTransactionDate(String transactionDate) {
         this.transactionDate = transactionDate;
     }
 
@@ -69,5 +77,39 @@ public class Transaction {
                 ", transactionDate='" + transactionDate + '\'' +
                 ", transactionType='" + transactionType + '\'' +
                 '}';
+    }
+
+    //////////////////////////////////////////////////////////////////////////////////////////////
+    PreparedStatement preparedStatement;
+    Connection connection;
+
+    public int depositMoney() throws SQLException {
+
+        String depositQuery = "insert into transaction (user_id,amount,transaction_date,transaction_type) values(?,?,?,?)";
+
+        preparedStatement = connection.prepareStatement(depositQuery);
+
+        preparedStatement.setString(1, userId);
+        preparedStatement.setDouble(2, amount);
+        preparedStatement.setString(3, transactionDate);
+        preparedStatement.setString(4, transactionType);
+
+        int result = preparedStatement.executeUpdate();
+
+        return result;
+    }
+
+    public int withdrawMoney() throws SQLException {
+        String withdrawQuery = "insert into transaction(user_id,amount,transaction_date,transaction_type) values(?,?,?,?)";
+
+        preparedStatement = connection.prepareStatement(withdrawQuery);
+
+        preparedStatement.setString(1, userId);
+        preparedStatement.setDouble(2, amount);
+        preparedStatement.setString(3, transactionDate);
+        preparedStatement.setString(4, transactionType);
+
+        int result = preparedStatement.executeUpdate();
+        return result;
     }
 }

@@ -18,6 +18,8 @@
 
 
 <%
+    session.setAttribute("userId",login.getUserId());
+
     String username = "";
     ResultSet resultSet = login.checkLoginUser();
 
