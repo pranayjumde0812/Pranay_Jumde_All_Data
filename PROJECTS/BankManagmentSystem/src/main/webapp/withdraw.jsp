@@ -1,4 +1,5 @@
-<%@ page import="java.time.LocalDate" %><%--
+<%@ page import="java.time.LocalDate" %>
+<%@ page import="java.util.Date" %><%--
   Created by IntelliJ IDEA.
   User: Asus
   Date: 20-09-2023
@@ -15,6 +16,9 @@
 
 <%
     String userId = (String) session.getAttribute("userId");
+
+//    Date date = new Date();
+//    Date dt = new java.sql.Date(date.getTime());
 
     LocalDate date = LocalDate.now();
     System.out.println(date);

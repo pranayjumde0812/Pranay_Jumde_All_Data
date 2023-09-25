@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="369e6d2c-f620-48f9-87fb-365022bdbd6e" name="Changes" comment="" />
+    <list default="true" id="369e6d2c-f620-48f9-87fb-365022bdbd6e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../PROJECTS/BankManagmentSystem/.idea/webContexts.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AbstractClass/src/Question_1/Check.java" beforeDir="false" afterPath="$PROJECT_DIR$/AbstractClass/src/Question_1/Check.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Interface/src/Ambiquity/One.java" beforeDir="false" afterPath="$PROJECT_DIR$/Interface/src/Ambiquity/One.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Interface/src/Ambiquity/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/Interface/src/Ambiquity/Runner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PROJECTS/BankManagmentSystem/src/main/webapp/withdraw.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../PROJECTS/BankManagmentSystem/src/main/webapp/withdraw.jsp" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -35,94 +42,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;11&quot;,
-    &quot;last_opened_file_path&quot;: &quot;F:/PranayDrive/Git-Original-Repo/MKPITS_Pranay_Jumde_Nov_2022/New_Work&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Facets&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2602579&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;advanced.settings&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "jdk.selected.JAVA_MODULE": "11",
+    "last_opened_file_path": "F:/PranayDrive/Git-Original-Repo/MKPITS_Pranay_Jumde_Nov_2022/New_Work",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Facets",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2602579",
+    "settings.editor.selected.configurable": "advanced.settings",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RunManager" selected="Application.main">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="AbstractClass" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Question_2.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Question_2.Main" />
-      <module name="AbstractClass" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Question_2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TinyEditor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TakingInput.TinyEditor" />
-      <module name="Java IO Stream" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="TakingInput.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="WriteMethod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TakingInput.WriteMethod" />
-      <module name="Java IO Stream" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="TakingInput.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Question_1.main" />
-      <module name="AbstractClass" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Question_1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.main" />
-        <item itemvalue="Application.Question_2.Main" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.WriteMethod" />
-        <item itemvalue="Application.TinyEditor" />
-      </list>
-    </recent_temporary>
-  </component>
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -148,6 +85,8 @@
       <workItem from="1694240275157" duration="56000" />
       <workItem from="1694497601292" duration="75000" />
       <workItem from="1694497918601" duration="305000" />
+      <workItem from="1695364349985" duration="294000" />
+      <workItem from="1695622704070" duration="70000" />
     </task>
     <servers />
   </component>
