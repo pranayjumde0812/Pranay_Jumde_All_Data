@@ -11,6 +11,5 @@ public class Main {
         EvenOdd evenOdd = new EvenOdd();
 
 
-
     }
 }

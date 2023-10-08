@@ -18,7 +18,10 @@ public class AccountUser {
     public AccountUser() {
 
         try {
-            Class.forName("com.mysql.cj.jdbc.Driver");
+//            Class.forName("com.mysql.cj.jdbc.Driver");
+
+            DriverManager.registerDriver(new com.mysql.cj.jdbc.Driver());
+
             String url = "jdbc:mysql://localhost:3306/jspbankproject";
             connection = DriverManager.getConnection(url, "root", "1311");
 

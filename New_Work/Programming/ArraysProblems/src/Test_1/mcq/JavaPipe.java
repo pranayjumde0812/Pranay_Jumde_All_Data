@@ -12,7 +12,7 @@ Input: (‘1|2|5’, ‘3|6’]), Output: [1, 2, 3, 5, 6]
 
 Public int [] stringMergeToIntegerArray (String a, String b)
 Example data
-Input: (‘10|15|20’, ‘1|50’), Output: [1, 10, 15, 20, 50].
+Input: (‘10|15|20’, ‘1|50’), Output: [1, 10, 15, 20, 50].-
 
      */
     public static int[] stringMergeToIntegerArray(String a, String b) {

@@ -50,7 +50,7 @@ public class TimeConversion {
         // Driver code
         public static void main (String[] args)
         {
-            String str = "12:05:4AM";
+            String str = "01:05:4AM";
             print24(str);
         }
     }

@@ -4,7 +4,7 @@ public class Factorial {
 
     public static void main(String[] args) {
 
-        long result = factorialRecursive(5);
+        long result = factorialRecursive(10);
 
         System.out.println(result);
     }

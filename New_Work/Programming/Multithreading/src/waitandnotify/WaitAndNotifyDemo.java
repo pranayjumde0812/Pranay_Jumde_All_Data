@@ -14,8 +14,8 @@ public class WaitAndNotifyDemo implements Runnable{
 
             for (int i = 1 ; i <= 100 ; i++){
                 total1 += i;
-//                total2 =total2 * i;
-//                total3 /= i;
+                total2 =total2 * i;
+                total3 /= i;
             }
 
             notify();

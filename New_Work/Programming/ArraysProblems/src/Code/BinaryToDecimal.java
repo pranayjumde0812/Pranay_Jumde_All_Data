@@ -14,7 +14,7 @@ public class BinaryToDecimal {
             digit++;
             num = num / 10;
         }
-        System.out.println("Decimal Eqivalent of binary number is : " + dec);
+        System.out.println("Decimal Equivalent of binary number is : " + dec);
     }
 
     static int power(int n, long digit) {
