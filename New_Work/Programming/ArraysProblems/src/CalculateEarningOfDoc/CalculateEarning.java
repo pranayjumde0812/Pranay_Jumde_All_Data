@@ -26,12 +26,19 @@ public class CalculateEarning {
 
         // Doctor treat 20 patients per day
 
-        int[] agesOfPatients = new int[20];
+        int[] agesOfPatients = new int[5];
 
         // Inputs of ages
         System.out.println("enter age greater than 0 and less than 120");
-        for (int i = 0; i < agesOfPatients.length; i++) {
-            agesOfPatients[i] = sc.nextInt();
+        for (int i = 0; i < agesOfPatients.length; ) {
+            int age = sc.nextInt();
+
+            if (age < 0 && age > 120) {
+                continue;
+            } else {
+                agesOfPatients[i] = age;
+                i++;
+            }
         }
 
         int earningADay = calculateEarning(agesOfPatients);

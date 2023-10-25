@@ -1,11 +1,8 @@
 package PrimeNumber;
-
 import java.util.Scanner;
 
 public class GetPrimeNumber {
-
     Scanner sc = new Scanner(System.in);
-
     public void findPrimeNumber() {
         System.out.print("Enter the number: ");
 

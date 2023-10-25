@@ -6,12 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="369e6d2c-f620-48f9-87fb-365022bdbd6e" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exception_Problems/Exception_Problems.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Exception_Problems/Exception_Problems.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exception_Problems/src/Custom_Exception/StringMisMatchException.java" beforeDir="false" afterPath="$PROJECT_DIR$/Exception_Problems/src/Custom_Exception/StringMisMatchException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Programming/Multithreading/src/Code/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Programming/Multithreading/src/Code/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Programming/out/production/Multithreading/Code/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/Programming/out/production/Multithreading/Code/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Programming/out/production/Multithreading/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/Programming/out/production/Multithreading/Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PROJECTS/BankManagmentSystem/src/main/java/com/mkpits/bankmanagmentsystem/entity/AccountUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/../PROJECTS/BankManagmentSystem/src/main/java/com/mkpits/bankmanagmentsystem/entity/AccountUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Programming/ArraysProblems/src/CalculateEarningOfDoc/CalculateEarning.java" beforeDir="false" afterPath="$PROJECT_DIR$/Programming/ArraysProblems/src/CalculateEarningOfDoc/CalculateEarning.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Programming/out/production/ArraysProblems/CalculateEarningOfDoc/CalculateEarning.class" beforeDir="false" afterPath="$PROJECT_DIR$/Programming/out/production/ArraysProblems/CalculateEarningOfDoc/CalculateEarning.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,24 +39,39 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "jdk.selected.JAVA_MODULE": "11",
-    "last_opened_file_path": "F:/PranayDrive/Git-Original-Repo/MKPITS_Pranay_Jumde_Nov_2022/New_Work/Programming",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.16601562",
-    "project.structure.side.proportion": "0.2602579",
-    "settings.editor.selected.configurable": "advanced.settings",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;11&quot;,
+    &quot;last_opened_file_path&quot;: &quot;F:/PranayDrive/Git-Original-Repo/MKPITS_Pranay_Jumde_Nov_2022/New_Work/Programming&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.16601562&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2602579&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;advanced.settings&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="New_Work" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="New_Work" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -89,6 +100,8 @@
       <workItem from="1695364349985" duration="294000" />
       <workItem from="1695622704070" duration="70000" />
       <workItem from="1696497139863" duration="1567000" />
+      <workItem from="1696851578604" duration="702000" />
+      <workItem from="1696940440026" duration="1107000" />
     </task>
     <servers />
   </component>
