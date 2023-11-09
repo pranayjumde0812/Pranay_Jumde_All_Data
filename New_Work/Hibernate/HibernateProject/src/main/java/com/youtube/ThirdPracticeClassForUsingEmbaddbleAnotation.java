@@ -1,7 +1,7 @@
 package com.youtube;
 
-import com.youtube.entity.Employee;
-import com.youtube.entity.Salary;
+import com.entity.Employee;
+import com.entity.Salary;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;
@@ -20,7 +20,7 @@ public class ThirdPracticeClassForUsingEmbaddbleAnotation {
         //  Storing Employee Data to DB
 
         Employee employee = new Employee();
-        employee.setName("{Pavan");
+        employee.setName("Pavan");
         employee.setCity("Khapri");
 
         // Now we have to store Salary details

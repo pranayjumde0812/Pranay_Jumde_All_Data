@@ -1,6 +1,6 @@
 package com.youtube;
 
-import com.youtube.entity.Student;
+import com.entity.Student;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;
