@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Footer template</title>
+</head>
+<body>
+
+<footer id="fragmentTag" th:fragment="footer-1">
+    <div class="container">
+        <h1>About me I'm Pranay Jumde</h1>
+        <h1>This is footer tag fragment</h1>
+        <h1>Thymeleaf tutorials</h1>
+        <h1>Important</h1>
+        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Ab at facilis iste minima non odio omnis possimus repellat similique vitae!</p>
+    </div>
+</footer>
+
+<footer id="fragmentTag1" th:fragment="footer-2(title,subtitle)">
+    <div class="container">
+        <h1>Dynamically passing values into fragments</h1>
+        <h1 th:text="${title}"></h1>
+        <h1 th:text="${subtitle}"></h1>
+        <h1></h1>
+    </div>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Service</title>
+</head>
+<body>
+<h1>Service page</h1>
+<!-- Going to bring footer here -->
+<h2>/////////////////////////////////////// replace /////////////////////////////////////////////////// </h2>
+<!-- 1) th:replace -->
+<footer id="hostTag" th:replace="footer::footer-1"></footer>
+
+<h2>/////////////////////////////////////// insert /////////////////////////////////////////////////// </h2>
+<!-- 2) th:insert -->
+<footer id="hostTag1" th:insert="footer::footer-1"></footer>
+
+<h2>/////////////////////////////////////// include /////////////////////////////////////////////////// </h2>
+<!-- 3) th:include -->
+<footer id="hostTag2" th:include="footer::footer-1"></footer>
+</body>
+</html>

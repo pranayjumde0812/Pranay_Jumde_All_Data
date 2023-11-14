@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Iteration</title>
+</head>
+<body>
+<h1>Going to traverse the elements in collection</h1>
+
+<h2 th:text="${nameList}"></h2>
+
+<h1>Ul list</h1>
+<ul>
+    <li th:each="n : ${nameList}">
+        <span th:text="${n}"></span>
+    </li>
+</ul>
+
+<h1>With index</h1>
+<ol>
+    <li th:each="n,status : ${nameList}">
+        <span th:text="${status.index}+' - '+${n}"></span>
+    </li>
+</ol>
+
+<h1>Ul With some extra properties</h1>
+<ul>
+    <li th:each="n,status : ${nameList}">
+        <span th:style="${status.odd} ? 'font-weight: bold' : ' '" th:text="${status.index + 1}+' - '+${n}"></span>
+    </li>
+</ul>
+
+<ul>
+    <li th:each="n,status : ${nameList}">
+        <span th:style="${status.odd} ? 'color : red ' : ' color : green '" th:text="${n}"></span>
+    </li>
+</ul>
+
+</body>
+</html>

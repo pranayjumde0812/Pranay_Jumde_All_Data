@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Conditional Statements</title>
+</head>
+<body>
+<div><h1>This is elvis statement works like ternary operator</h1>
+    <h2>
+        User is <span th:style="${isActive} ? 'color : green' : 'color : red'"
+                      th:text="${isActive} ? 'ACTIVE' : 'NOT ACTIVE'"></span>
+    </h2>
+</div>
+
+
+<h1>////////////////////////////////////////////////////////////////</h1>
+
+<div>
+    <h1 th:if="${gender} == 'M'">Male</h1>
+    <h1 th:if="${gender} == 'F'">Female</h1>
+</div>
+
+<div>
+    <h1 th:if="${gender} == 'M'">Male</h1>
+    <h1 th:unless="${gender} == 'M'">Female</h1>
+</div>
+
+<div th:switch="${#lists.size(listOfNum)}">
+    <h1 th:case="'0'">List is empty</h1>
+    <h1 th:case="'1'">List contain one element</h1>
+    <h1 th:case="'*'">List contain more than one elements y</h1>
+</div>
+</body>
+</html>
