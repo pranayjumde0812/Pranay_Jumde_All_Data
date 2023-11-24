@@ -16,7 +16,7 @@ public class ConditionalController {
     public String conditionalHandler(Model model) {
         System.out.println("Conditional Handler Started");
 
-        model.addAttribute("isActive", false);
+        model.addAttribute("isActive", true);
 
         model.addAttribute("gender", "F");
 
