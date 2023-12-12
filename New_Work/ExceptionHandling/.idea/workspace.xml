@@ -1,13 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="dd239bcd-eb20-462a-8c46-29650e21f439" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../../PROJECTS/BankManagmentSystem/.idea/webContexts.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AbstractClass/src/Question_1/Check.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AbstractClass/src/Question_1/Check.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Interface/src/Ambiquity/One.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Interface/src/Ambiquity/One.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Interface/src/Ambiquity/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Interface/src/Ambiquity/Runner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PROJECTS/BankManagmentSystem/src/main/webapp/withdraw.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../PROJECTS/BankManagmentSystem/src/main/webapp/withdraw.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../My_Personal_Project_Work/SpringBoot/springboot-thymeleaf-crud-web-app-new/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../My_Personal_Project_Work/SpringBoot/springboot-thymeleaf-crud-web-app-new/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../My_Personal_Project_Work/SpringBoot/springboot-thymeleaf-crud-web-app-new/src/main/java/net/youtube/springboot/SpringbootThymeleafCrudWebAppNewApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../My_Personal_Project_Work/SpringBoot/springboot-thymeleaf-crud-web-app-new/src/main/java/net/youtube/springboot/SpringbootThymeleafCrudWebAppNewApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../My_Personal_Project_Work/SpringBoot/springboot-thymeleaf-crud-web-app-new/src/main/java/net/youtube/springboot/controller/EmployeeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../My_Personal_Project_Work/SpringBoot/springboot-thymeleaf-crud-web-app-new/src/main/java/net/youtube/springboot/controller/EmployeeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../My_Personal_Project_Work/SpringBoot/springboot-thymeleaf-crud-web-app-new/src/main/java/net/youtube/springboot/model/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../My_Personal_Project_Work/SpringBoot/springboot-thymeleaf-crud-web-app-new/src/main/java/net/youtube/springboot/model/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../My_Personal_Project_Work/SpringBoot/springboot-thymeleaf-crud-web-app-new/src/main/java/net/youtube/springboot/repository/EmployeeRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../My_Personal_Project_Work/SpringBoot/springboot-thymeleaf-crud-web-app-new/src/main/java/net/youtube/springboot/repository/EmployeeRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../My_Personal_Project_Work/SpringBoot/springboot-thymeleaf-crud-web-app-new/src/main/java/net/youtube/springboot/service/EmployeeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../My_Personal_Project_Work/SpringBoot/springboot-thymeleaf-crud-web-app-new/src/main/java/net/youtube/springboot/service/EmployeeService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../My_Personal_Project_Work/SpringBoot/springboot-thymeleaf-crud-web-app-new/src/main/java/net/youtube/springboot/service/Impl/EmployeeServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../My_Personal_Project_Work/SpringBoot/springboot-thymeleaf-crud-web-app-new/src/main/java/net/youtube/springboot/service/Impl/EmployeeServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../My_Personal_Project_Work/SpringBoot/springboot-thymeleaf-crud-web-app-new/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../My_Personal_Project_Work/SpringBoot/springboot-thymeleaf-crud-web-app-new/src/main/resources/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../My_Personal_Project_Work/SpringBoot/springboot-thymeleaf-crud-web-app-new/src/main/resources/templates/new_employee.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../My_Personal_Project_Work/SpringBoot/springboot-thymeleaf-crud-web-app-new/src/main/resources/templates/new_employee.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../My_Personal_Project_Work/SpringBoot/springboot-thymeleaf-crud-web-app-new/src/main/resources/templates/update_employee.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../My_Personal_Project_Work/SpringBoot/springboot-thymeleaf-crud-web-app-new/src/main/resources/templates/update_employee.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hibernate/HibernateProject/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Hibernate/HibernateProject/.idea/misc.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +26,10 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 4
+}]]></component>
   <component name="ProjectId" id="2VsRAc6Rbrg2DxgEEFy1Q3pHAKZ" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -24,10 +37,15 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
     "last_opened_file_path": "F:/PranayDrive/Git-Original-Repo/MKPITS_Pranay_Jumde_Nov_2022/New_Work",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -40,6 +58,7 @@
       <option name="presentableId" value="Default" />
       <updated>1695622658411</updated>
       <workItem from="1695622659838" duration="43000" />
+      <workItem from="1702111651241" duration="628000" />
     </task>
     <servers />
   </component>

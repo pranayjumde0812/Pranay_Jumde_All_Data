@@ -20,6 +20,7 @@ public class EmployeeServiceImpl implements EmployeeService {
 
     @Autowired
     private EmployeeRepository employeeRepository;
+
     @Override
     public List<Employee> getAllEmployees() {
         return employeeRepository.findAll();
@@ -35,17 +36,17 @@ public class EmployeeServiceImpl implements EmployeeService {
         Optional<Employee> optional = employeeRepository.findById(id);
         Employee employee = null;
 
-        if(optional.isPresent()){
+        if (optional.isPresent()) {
             employee = optional.get();
-        }else{
-            throw new RuntimeException(" Employee Not Found for ID :: "+id);
+        } else {
+            throw new RuntimeException(" Employee Not Found for ID :: " + id);
         }
         return employee;
     }
 
     @Override
     public void deleteEmployeeById(long id) {
-            this.employeeRepository.deleteById(id);
+        this.employeeRepository.deleteById(id);
     }
 
     @Override
@@ -54,7 +55,7 @@ public class EmployeeServiceImpl implements EmployeeService {
         Sort sort = sortDirection.equalsIgnoreCase(Sort.Direction.ASC.name()) ? Sort.by(sortFeild).ascending() :
                 Sort.by(sortFeild).descending();
 
-        Pageable pageableSorting = PageRequest.of(pageNo - 1 , pageSize , sort);
+        Pageable pageableSorting = PageRequest.of(pageNo - 1, pageSize, sort);
 
         return this.employeeRepository.findAll(pageableSorting);
     }
