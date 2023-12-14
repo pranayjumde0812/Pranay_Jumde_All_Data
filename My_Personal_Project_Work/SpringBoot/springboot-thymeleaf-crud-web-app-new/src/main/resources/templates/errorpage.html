@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+          crossorigin="anonymous">
+    <title>Error Page</title>
+</head>
+<body>
+
+<!--<h1 th:text="${status}"></h1>-->
+<!--<h1 th:text="${message}"></h1>-->
+<!--<h1 th:text="${timestamp}"></h1>-->
+
+<p th:text="${exception.status}"></p>
+<p th:text="${exception.message}"></p>
+<p th:text="${exception.timestamp}"></p>
+<hr>
+<a th:href="@{/}" class="btn btn-primary btn-sm mb-3">Back to Home</a>
+</body>
+</html>

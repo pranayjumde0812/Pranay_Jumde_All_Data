@@ -1,5 +1,6 @@
 package net.youtube.springboot.service.Impl;
 
+import net.youtube.springboot.exceptions.RecordNotFoundException;
 import net.youtube.springboot.model.Employee;
 import net.youtube.springboot.repository.EmployeeRepository;
 import net.youtube.springboot.service.EmployeeService;
@@ -39,7 +40,7 @@ public class EmployeeServiceImpl implements EmployeeService {
         if (optional.isPresent()) {
             employee = optional.get();
         } else {
-            throw new RuntimeException(" Employee Not Found for ID :: " + id);
+            throw new RecordNotFoundException(" Employee Not Found for ID :: " + id);
         }
         return employee;
     }
