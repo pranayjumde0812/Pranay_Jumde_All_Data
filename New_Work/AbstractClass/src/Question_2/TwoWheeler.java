@@ -1,6 +1,6 @@
 package Question_2;
 
-public class TwoWheeler extends Car implements MotorBike, Cycle{
+public class TwoWheeler extends Car implements MotorBike, Cycle {
 
     @Override
     public void speed() {
